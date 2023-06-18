@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+}
+
+.banner {
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('overlay.png'), url('banner.jpg');
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .navbar {
+	margin-top: -25%;
+	margin-bottom: flex;
+}
+
+.banner .navbar-brand {
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.banner .nav {
+	margin-right: 10%;
+}
+
+.banner .nav li a {
+	color: #aaa;
+	font-size: 1.2em;
+	transition: color 0.3s ease;
+}
+
+.banner .nav li a:hover {
+	color: #ffffff;
+	background: #e9c707;
+}
+
+.banner .info {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.banner .info h1 {
+	font-size: 3em;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+}
+
+.banner .info p {
+	font-size: 1.8em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.banner .info a {
+	display: inline-block;
+	color: #ffffff;
+	background: #e9c707;
+	padding: 10px 30px;
+	font-size: 1.8em;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner .info a:hover {
+	background: #7a6c1c;
+}
